@@ -20,7 +20,7 @@ jobs:
           extended: true
 
       - name: Build site
-        run: hugo --minify
+        run: hugo build --minify
 
       - name: Deploy via rsync
         uses: appleboy/scp-action@v0.1.7
