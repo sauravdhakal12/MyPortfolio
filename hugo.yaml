@@ -97,7 +97,9 @@ params:
 
   analytics:
     google:
-      SiteVerificationTag: "G-V0CXG8ZEG2"
+      SiteVerificationTag: ""
+
+googleAnalytics: "G-V0CXG8ZEG2"
 
   cover:
     hidden: true # hide everywhere but not in structured data
