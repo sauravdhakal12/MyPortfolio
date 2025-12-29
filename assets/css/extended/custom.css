@@ -1,0 +1,141 @@
+/* Global link styles */
+
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Space+Grotesk:wght@300..700&display=swap");
+
+:root {
+  --gap: 24px;
+  --content-gap: 20px;
+  --nav-width: 1024px;
+  --main-width: 720px;
+  --header-height: 60px;
+  --footer-height: 60px;
+  --radius: 8px;
+  --theme: rgb(255, 255, 255);
+  --entry: rgb(255, 255, 255);
+  --primary: #282828;
+  --secondary: #3c3836;
+  --tertiary: rgb(214, 214, 214);
+  --content: rgb(31, 31, 31);
+  --code-block-bg: rgb(28, 29, 33);
+  --code-bg: rgb(245, 245, 245);
+  --border: rgb(238, 238, 238);
+  color-scheme: light;
+
+  --red: #cc241d;
+  --redl: #fb4934;
+
+  --green: #98971a;
+  --greenl: #b8bb26;
+
+  --yellow: #d79921;
+  --yellowl: #fabd2f;
+
+  --blue: #458588;
+  --bluel: #83a598;
+
+  --purple: #b16286;
+  --purplel: #d3869b;
+
+  --aqua: #689d6a;
+  --aqual: #8ec07c;
+
+  --gray: #928374;
+  --grayl: #a89984;
+
+  --orange: #d65d0e;
+  --orangel: #fe8019;
+
+  --post-entry-bg: white; /* soft gruvbox light */
+  --post-entry-fg: #282828;
+}
+
+:root[data-theme="dark"] {
+  --theme: #181818;
+  --entry: rgb(46, 46, 51);
+  --primary: #fbf1c7;
+  --secondary: #ebdbb2;
+  --tertiary: rgb(65, 66, 68);
+  --content: rgb(196, 196, 197);
+  --code-block-bg: rgb(46, 46, 51);
+  --code-bg: rgb(55, 56, 62);
+  --border: rgb(151, 51, 51);
+  color-scheme: dark;
+
+  --post-entry-bg: #181818; /* bg1 */
+  --post-entry-fg: #ebdbb2;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+nav #menu span {
+  padding: 0px 2px;
+
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--green);
+}
+
+/* *
+* NAV SECTION
+* */
+
+nav #menu span:hover {
+  background-color: var(--green);
+  color: white;
+}
+
+nav #menu .active {
+  border: 0px;
+  color: var(--green);
+
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--green);
+}
+
+/* *
+* MAIN SECTION
+* */
+main a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--green);
+}
+
+main a:hover:not(.entry-link) {
+  background-color: var(--green);
+  color: white;
+}
+
+main h1 {
+  color: var(--green);
+}
+
+.share-buttons,
+.toc,
+.post-tags a {
+  border: 0px;
+}
+
+.anchor {
+  text-decoration: none;
+}
+
+/* main h1::before { */
+/*   content: "#";  */
+/*   color: var(--red); */
+/*   color: var(--green); */
+/*   margin-right: 0.5em; */
+/*   font-weight: bold;  */
+/*   font-weight: bold; */
+/*   font-style: italic; */
+/* } */
+
+main .post-entry {
+  border: 0px;
+  background-color: var(--post-entry-bg);
+  color: var(--post-entry-fg);
+  border: 2px solid #383838;
+}
