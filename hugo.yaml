@@ -99,8 +99,6 @@ params:
     google:
       SiteVerificationTag: ""
 
-googleAnalytics: "G-V0CXG8ZEG2"
-
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
@@ -142,3 +140,4 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+googleAnalytics: "G-V0CXG8ZEG2"
