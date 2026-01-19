@@ -1,5 +1,5 @@
 # DEmo
-baseURL: https://sauravdhakal.com.np/
+baseURL: "https://sauravdhakal.com.np/"
 languageCode: en-us
 title: Saurav Dhakal
 theme: ["PaperMod"]

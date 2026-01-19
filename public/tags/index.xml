@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Saurav Dhakal</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://sauravdhakal.com.np/tags/</link>
     <description>Recent content in Tags on Saurav Dhakal</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <copyright>SauravDhakal</copyright>
     <lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sauravdhakal.com.np/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Architecture</title>
-      <link>http://localhost:1313/tags/architecture/</link>
+      <link>https://sauravdhakal.com.np/tags/architecture/</link>
       <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/architecture/</guid>
+      <guid>https://sauravdhakal.com.np/tags/architecture/</guid>
       <description></description>
     </item>
     <item>
       <title>Nestjs</title>
-      <link>http://localhost:1313/tags/nestjs/</link>
+      <link>https://sauravdhakal.com.np/tags/nestjs/</link>
       <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/nestjs/</guid>
+      <guid>https://sauravdhakal.com.np/tags/nestjs/</guid>
       <description></description>
     </item>
     <item>
       <title>Typescript</title>
-      <link>http://localhost:1313/tags/typescript/</link>
+      <link>https://sauravdhakal.com.np/tags/typescript/</link>
       <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/typescript/</guid>
+      <guid>https://sauravdhakal.com.np/tags/typescript/</guid>
       <description></description>
     </item>
   </channel>
